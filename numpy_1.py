@@ -3,7 +3,7 @@ import numpy as np
 # Creating array object 
 arr = np.array( [
   [ 1, 2, 3], 
-  [ 4, 2, 5]] ) 
+  [ 4, 2, 5]], dtype = 'float' ) 
 
 # Printing type of arr object 
 print("Array is of type: ", type(arr)) 
